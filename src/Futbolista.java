@@ -44,7 +44,24 @@ public class Futbolista extends Humano{
             jugador1.entrenar();
             jugador1.jugar();
                      
+            Futbolista jugador2 = new Futbolista();
+        
+            jugador2.nombre = "Cachito";
+            jugador2.equipo = "Es lo que hay";
+            jugador2.edad = 36;
+            jugador2.posición = "defensor central";
+            jugador2.contrato = 2014;
             
+            System.out.println("Futbolista : " + jugador2.nombre);
+            System.out.println("Equipo : " + jugador2.equipo);
+            System.out.println("Edad : " + jugador2.edad);
+            System.out.println("Posición : " + jugador2.posición);
+            System.out.println("Contrato vigente hasta : " + jugador2.contrato);
+            
+            jugador2.comer();
+            jugador2.dormir();
+            jugador2.entrenar();
+            jugador2.jugar();
 }
     
     
