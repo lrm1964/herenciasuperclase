@@ -11,7 +11,6 @@
 public class Humano {
     
     public String nombre;
-    public String equipo;
     public int edad;
     
     public void comer(){
